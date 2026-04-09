@@ -1,0 +1,39 @@
+{
+  "compilerOptions": {
+    /* Paramètres d'environnement */
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "types": [
+      "node",
+      "vitest/globals"
+    ],
+    "skipLibCheck": true,
+    /* Sortie et Layout */
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "moduleDetection": "force",
+    /* Vérification de type (Strict) */
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    "isolatedModules": true,
+    /* Intégration Vitest / ESM */
+    "verbatimModuleSyntax": true,
+    "jsx": "react-jsx",
+    "noUncheckedSideEffectImports": true
+  },
+  "include": [
+    "src/**/*",
+    "**/*.test.ts",
+    "vitest.config.mts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "phone-pad",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Feuille de route du projet genie logiciel",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joachim-lgtm/phone-pad.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/joachim-lgtm/phone-pad/issues"
+  },
+  "homepage": "https://github.com/joachim-lgtm/phone-pad#readme",
+  "devDependencies": {
+    "@types/node": "^25.5.2",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.4"
+  }
+}
